@@ -109,6 +109,16 @@ This is the resulting heat map:
 
 The most unique correlations to obesity were as follows:
 
+| Variable  | Corr % | P-val |
+| ------------- | ------------- | ------------- |
+| Age  | 35%  | 2.2e-16 (0) |
+| Physical_Activity_Time  | -14%  | 4.591-e6 |
+| Family_History_Overweight  | 27%  | 2.2e-16 (0) |
+| Smoke  | 15%  | 0.0001905 |
+| Gender  | 12%  | 8.291-e6 |
+
+Note: The positive correlation between Gender and Obesity indicates a larger percent of males are obese rather than females.
+
 The rest of the variables have either P > 0.05 or are nominal with multiple variables (City, Transportation)
 
 The visualization of the variables is as follows:
