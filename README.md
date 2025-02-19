@@ -43,4 +43,18 @@ After this, we detected that there were 129 rows with missing data. To resolve t
 		df[na_cols[i]][is.na(df[na_cols[i]])] <- value
   
 	  i <- i + 1
-}
+	}
+
+ Renaming Long Column Names:
+	
+Due to the long column names, we found it to be unorthodox to use them each time we call for their respective data. To solve this:
+
+	colnames(df) <- c("Gender", "Age", "Family_History_Overweight", "Food_Between_Meals", "Smoke", "Transportaion",
+                  "City", "Physical_Activity_Time", "Breakfast_In_Week", "Grains_In_Week", "Dairy_In_Week",
+                  "Caffeine_In_Week", "Seafood_In_Week", "BRS_Q1", "BRS_Q2", "BRS_Q3", "BRS_Q4", "BRS_Q5", "BRS_Q6",
+                  "K10_Q1", "K10_Q2", "K10_Q3", "K10_Q4", "K10_Q5", "K10_Q6", "K10_Q7", "K10_Q8", "K10_Q9", "K10_Q10",
+                  "PSQI_Q1", "PSQI_Q2", "PSQI_Q3", "PSQI_Q4", "PSQI_Q5A", "PSQI_Q5B", "PSQI_Q5C", "PSQI_Q5D", "PSQI_Q5E",
+                  "PSQI_Q5F", "PSQI_Q5G", "PSQI_Q5H", "PSQI_Q5I", "PSQI_Q6", "PSQI_Q7", "PSQI_Q8", "PSQI_Q9", "Obesity_Indicator")
+
+This made it significantly easier.
+
