@@ -10,7 +10,7 @@ We're intested in the following metrics:
 
 - The BRS is a single-page activity where the participant assigns a score between 1 and 5 to a series of statements. The scores (added and divided by the number of statements) determine their personal BRS score. The higher the score, the higher their resiliency.
 
-- 
+- The Pittsburgh Sleep Quality Index (PSQI) [2] is a self-report questionnaire that assesses sleep quality over a 1-month time interval. The measure consists of 19 individual items, creating 7 components that produce one global score.
 
 ## 1- Introduction
 
@@ -186,4 +186,4 @@ Correlations of Everything (Warning: Some correlations are incompatible!)
 
 [1] Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, et al. Screening for serious mental illness in the general population. Arch Gen Psychiatry. 2003 Feb;60(2):184-9.
 
-
+[2] Buysse, Daniel J.; Reynolds, Charles F.; Monk, Timothy H.; Berman, Susan R.; Kupfer, David J. (May 1989). "The Pittsburgh sleep quality index: A new instrument for psychiatric practice and research". Psychiatry Research. 28 (2): 193–213. doi:10.1016/0165-1781(89)90047-4. PMID 2748771. S2CID 13035531.
