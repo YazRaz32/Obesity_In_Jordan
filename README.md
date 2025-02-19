@@ -89,9 +89,8 @@ The highlights of our work within this section are as follows:
 - Categorizing each metric and putting the categorized metric in new columns:
 	* PSQI_cat <- cut(PSQI, breaks = c(0, 4, 21), labels = c('good', 'poor'), right = T)
 	* BRS_cat <- cut(BRS, breaks = c(5, 13, 21, 30), labels = c('low resilience', 'normal resilience', 'high resilience'), right = T)
+	* K10_cat <- cut(K10, breaks = c(9, 19, 29, 50), labels = c('likely to be well', 'likely to have a moderate disorder', 'likely to have a severe disorder'), right = T)
 
-K10_cat <- cut(K10, breaks = c(9, 19, 29, 50), labels = c('likely to be well', 'likely to have a moderate disorder', 'likely to have a severe disorder'), right = T)
-
-	Factorizing ordinal variables: Breakfasts_In_Week, Grain_In_Week, Dairy_In_Week, Caffeine_In_Week, Seafood_In_Week, Obesity_Indicator.
-	Factorizing nominal variables: Gender, Family_History_Overweight, Food_Between_Meals, Smoke, Transportation, City.
-	All numeric variables have been left untouched.
+- Factorizing ordinal variables: Breakfasts_In_Week, Grain_In_Week, Dairy_In_Week, Caffeine_In_Week, Seafood_In_Week, Obesity_Indicator.
+- Factorizing nominal variables: Gender, Family_History_Overweight, Food_Between_Meals, Smoke, Transportation, City.
+- All numeric variables have been left untouched.
