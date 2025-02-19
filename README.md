@@ -105,7 +105,7 @@ First, we determined whether the most important variables have a significant cor
 
 This is the resulting heat map:
 
-![alt text](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Important.png?raw=true)
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Important.png?raw=true)
 
 The most unique correlations to obesity were as follows:
 
@@ -122,6 +122,10 @@ Note: The positive correlation between Gender and Obesity indicates a larger per
 The rest of the variables have either P > 0.05 or are nominal with multiple variables (City, Transportation)
 
 The visualization of the variables is as follows:
+
+Histogram between Physical Activity and Obesity:
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Physical.png?raw=true)
 
 Visualizing Nominal Multi-valued Variables:
 
