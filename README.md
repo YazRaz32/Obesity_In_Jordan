@@ -94,3 +94,31 @@ The highlights of our work within this section are as follows:
 - Factorizing ordinal variables: Breakfasts_In_Week, Grain_In_Week, Dairy_In_Week, Caffeine_In_Week, Seafood_In_Week, Obesity_Indicator.
 - Factorizing nominal variables: Gender, Family_History_Overweight, Food_Between_Meals, Smoke, Transportation, City.
 - All numeric variables have been left untouched.
+
+### 2.3- Exploratory Data Analysis
+
+Correlation:
+
+For almost all correlations, we used ‘spearman’ correlation due to its wide use and flippant attitude towards non-normality. Yes, even with some nominal variables, simply because all nominal variables are binary.
+
+First, we determined whether the most important variables have a significant correlation with obesity (P < 0.05), otherwise this dataset does not provide sufficient evidence to prove correlation.
+
+This is the resulting heat map:
+
+The most unique correlations to obesity were as follows:
+
+The rest of the variables have either P > 0.05 or are nominal with multiple variables (City, Transportation)
+
+The visualization of the variables is as follows:
+
+Visualizing Nominal Multi-valued Variables:
+
+To see the relationship between obesity and nominal multi-valued variables, we can only use the chi-square test and Cramer’s V:
+
+## 3- Results:
+
+Concludingly, this study has found no sufficient evidence to prove correlation between Obesity and PSQI, BRS, or K10 metrics. However, it found correlations for several other variables, both numerical and categorical, like: Physical Activity Time, Gender, Smoke, Transportation, etc…
+
+We find it strange that we found no evidence of at least one of the major metrics, i.e. PSQI, BRS, and K10, to have had a correlation with obesity, though interestedly, if we go back to Figure 2.3.1.1, we find a significant relationship between both BRS and K10 metrics, suggesting an intent to investigate the relation between both of the variables, but that’s for another study.
+
+## 4- Appendix:
