@@ -163,3 +163,13 @@ Concludingly, this study has found no sufficient evidence to prove correlation b
 We find it strange that we found no evidence of at least one of the major metrics, i.e. PSQI, BRS, and K10, to have had a correlation with obesity, though interestedly, if we go back to Figure 2.3.1.1, we find a significant relationship between both BRS and K10 metrics, suggesting an intent to investigate the relation between both of the variables, but that’s for another study.
 
 ## 4- Appendix:
+
+Scatterplot & LOESS of K10 & BRS
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/K10_BRS.png?raw=true)
+
+#
+
+4.2 Correlations of Everything (Warning: Some correlations are incompatible!) 
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Everything.png?raw=true)
