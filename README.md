@@ -105,6 +105,8 @@ First, we determined whether the most important variables have a significant cor
 
 This is the resulting heat map:
 
+![alt text](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Important.jpg?raw=true)
+
 The most unique correlations to obesity were as follows:
 
 The rest of the variables have either P > 0.05 or are nominal with multiple variables (City, Transportation)
