@@ -105,7 +105,7 @@ First, we determined whether the most important variables have a significant cor
 
 This is the resulting heat map:
 
-![alt text](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Important.jpg?raw=true)
+![alt text](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Important.png?raw=true)
 
 The most unique correlations to obesity were as follows:
 
