@@ -4,6 +4,14 @@
 	
 The goal of this study is to find the statistical relations between the main and important variables, mainly the obesity indicator variable. The study is based on an incomplete dataset that has recorded several questions and concluded metrics from the questions. This data is based on a survey that’s been filled out by over 900 Jordanians. Through different analytics, this study will uncover any correlation between obesity and several other variables.
 
+We're intested in the following metrics:
+
+- The Kessler Psychological Distress Scale (K10) [1] is a simple measure of psychological distress. The K10 scale involves 10 questions about emotional states each with a five-level response scale. The measure can be used as a brief screen to identify levels of distress. The tool can be given to patients to complete, or alternatively the questions can be read to the patient by the practitioner.
+
+- The BRS is a single-page activity where the participant assigns a score between 1 and 5 to a series of statements. The scores (added and divided by the number of statements) determine their personal BRS score. The higher the score, the higher their resiliency.
+
+- 
+
 ## 1- Introduction
 
 Obesity is an unnaturally large culmination of fat within a human’s body. It produces a dangerous risk to the individual’s life and its quality. It can lead to the introduction of many diseases, with heart disease being the most prominent.
@@ -173,3 +181,9 @@ Scatterplot & LOESS of K10 & BRS
 Correlations of Everything (Warning: Some correlations are incompatible!) 
 
 ![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Everything.png?raw=true)
+
+# 5- References:
+
+[1] Kessler RC, Barker PR, Colpe LJ, Epstein JF, Gfroerer JC, Hiripi E, et al. Screening for serious mental illness in the general population. Arch Gen Psychiatry. 2003 Feb;60(2):184-9.
+
+
