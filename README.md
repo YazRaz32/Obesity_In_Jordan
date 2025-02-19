@@ -45,7 +45,7 @@ After this, we detected that there were 129 rows with missing data. To resolve t
 	  i <- i + 1
 	}
 
- Renaming Long Column Names:
+Renaming Long Column Names:
 	
 Due to the long column names, we found it to be unorthodox to use them each time we call for their respective data. To solve this:
 
@@ -126,6 +126,31 @@ The visualization of the variables is as follows:
 Histogram between Physical Activity and Obesity:
 
 ![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Physical.png?raw=true)
+
+#
+
+Histogram between Age and Obesity
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Age.png?raw=true)
+
+#
+
+Histogram between Family History Overweight and Obesity
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Family.png?raw=true)
+
+#
+
+Histogram between Smoke and Obesity
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Smoke.png?raw=true)
+
+#
+
+Histogram between Gender and Obesity
+
+![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Gender.png?raw=true)
+
 
 Visualizing Nominal Multi-valued Variables:
 
