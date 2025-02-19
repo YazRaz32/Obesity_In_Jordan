@@ -170,6 +170,6 @@ Scatterplot & LOESS of K10 & BRS
 
 #
 
-4.2 Correlations of Everything (Warning: Some correlations are incompatible!) 
+Correlations of Everything (Warning: Some correlations are incompatible!) 
 
 ![ERROR](https://github.com/YazRaz32/Obesity_In_Jordan/blob/main/Everything.png?raw=true)
