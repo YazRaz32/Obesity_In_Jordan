@@ -58,3 +58,40 @@ Due to the long column names, we found it to be unorthodox to use them each time
 
 This made it significantly easier.
 
+Data Entry Errors:
+
+Two columns of the dataset is plagued with data entry errors. We fixed them accordingly: 
+
+	df$K10_Q10[df$K10_Q10 == 'alfairly often never'] <- 'almost never'
+	df$K10_Q9[df$K10_Q9 == 'alfairly often never'] <- 'almost never'
+
+Outlier Detection & Replacement:
+	
+We ran the Grubbs test for each relevant numeric variable to detect outliers and replace them with their variable’s respective median:
+
+This took several stages as we slowly chipped away at each outlier for each variable till the test came back a p < 0.05 for each numeric variable.
+
+### 2.2- Feature Engineering and Selection:
+All string-based data has been turned to either ordered or unordered factors according to logic. For example, binary variables like ‘family_history_overweight’ are nominal variable and therefore are unordered. Multi-value string variables like most metric questions that go within the calculations of PSQI, BRS, and K10 are ordinal and are ordered factors.
+
+Numeric variables were left alone as they had no solvable issues. The largest issue was that the data was varied between doubles and integers, which we unfortunately had to deal with.
+
+The highlights of our work within this section are as follows:
+- Factorizing PSQI questions 1 through 9.
+- Calculating sleep time out of PSQI_Q1 & PSQI_Q3, and therefore, calculating sleep efficiency.
+- Calculating the Pittsburgh Sleep Quality Index for each raw by summing the numerated factors.
+- Factorizing the BRS questions 1 through 6.
+- Accounting for the negative nature of 2, 4, 6 BRS and subtracting them from 6 in order to make them positive.
+- Calculating BRS by summing all numerated BRS factors.
+- Factorizing K10 questions.
+- Fixing values of K10 question variables, i.e. 'alfairly often never' to ‘almost never’.
+- Calculating K10 by summing all K10 numerated factors.
+- Categorizing each metric and putting the categorized metric in new columns:
+	* PSQI_cat <- cut(PSQI, breaks = c(0, 4, 21), labels = c('good', 'poor'), right = T)
+	* BRS_cat <- cut(BRS, breaks = c(5, 13, 21, 30), labels = c('low resilience', 'normal resilience', 'high resilience'), right = T)
+
+K10_cat <- cut(K10, breaks = c(9, 19, 29, 50), labels = c('likely to be well', 'likely to have a moderate disorder', 'likely to have a severe disorder'), right = T)
+
+	Factorizing ordinal variables: Breakfasts_In_Week, Grain_In_Week, Dairy_In_Week, Caffeine_In_Week, Seafood_In_Week, Obesity_Indicator.
+	Factorizing nominal variables: Gender, Family_History_Overweight, Food_Between_Meals, Smoke, Transportation, City.
+	All numeric variables have been left untouched.
